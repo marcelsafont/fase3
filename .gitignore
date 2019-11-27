@@ -1,0 +1,10 @@
+.DS_store
+gulpfile.js
+imatges2.zip
+imatges2/
+node_modules/
+package.json
+package-lock.json
+texts-2.txt
+unnamed.png
+sass/
