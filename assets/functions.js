@@ -8,6 +8,8 @@ $(document).ready(function(){
 		});	
 	})
 
+	$(".block-cards .item").flip();
+
 	$('#responsable-btn').click(function(){
 		$('#colaborador').hide();
 		$('#responsable').show(100, function(){
