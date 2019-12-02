@@ -3,7 +3,7 @@ $(document).ready(function(){
 	$('#colaborador-btn').click(function(){
 		$('#responsable').hide();
 		$('#colaborador').show(100, function(){
-			let pos = $('#colaborador .box-info').position();
+			let pos = $('#colaborador .blocks-color').position();
 			window.scrollTo(0, pos.top);
 		});	
 	})
@@ -13,7 +13,7 @@ $(document).ready(function(){
 	$('#responsable-btn').click(function(){
 		$('#colaborador').hide();
 		$('#responsable').show(100, function(){
-			let pos = $('#responsable .box-info').position();
+			let pos = $('#responsable .blocks-color').position();
 			window.scrollTo(0, pos.top);
 		});
 	})	
